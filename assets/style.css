@@ -13,6 +13,10 @@
   html {
     font-size: 62.5%;
   }
+
+  .bulma-hamburger-mixin {
+    @include hamburger(2.5rem);
+  }
   
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
